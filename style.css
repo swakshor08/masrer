@@ -1,0 +1,105 @@
+/* universel selector */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+/* name selector */
+body{
+    background-color: black;
+}
+
+/* id selector */
+#admin-box{
+    background-color: rgb(27, 93, 215);
+    width: 50%;
+    margin: 10% auto;
+    padding: 25px;
+    color: black;
+    text-align: center;
+}
+
+/* desendent selector */
+#admin-box h1{
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 8px 8px 5px white;
+}
+
+#admin-box img{
+    display: block;
+    text-align: center;
+    /* background-color: aquamarine; */
+    margin: auto;
+}
+
+/* grouping selector */
+label, input{
+    display: block;
+    cursor: pointer;
+}
+
+
+form{
+    margin-top: 28px;
+}
+
+label{
+    line-height: 28px;
+    font-size: 20px;
+    text-shadow: 4px 6px 4px white;
+}
+
+input{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow:4px 6px 4px;
+    outline: 2px solid rgb(0, 0, 0);
+}
+
+input::placeholder{
+    color: black;
+    text-shadow: 4px 6px 4px white
+
+}
+
+input[type="submit"]{
+    width: 50%;
+    margin: 20px auto;
+    transition: 0.5s;
+}
+
+input[type="submit"]:hover{
+    background-color: black;
+    color: cornflowerblue;
+}
+
+.pg{
+    font-size: 17px;
+    line-height: 17px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 4px 6px 4px white;
+}
+
+.pg a{
+    text-transform: capitalize;
+    color: black;
+}
+
+.pg a:hover{
+    text-transform: lowercase;
+    color:burlywood
+}
+
+
+
+
+
